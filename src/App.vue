@@ -4,9 +4,9 @@
     <main class="container-fluid">
       <aside>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/page-1">Page 1</a></li>
-          <li><a href="/page-2">Page 2</a></li>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/page-1">Page 1</router-link></li>
+          <li><router-link to="/page-2">Page 2</router-link></li>
         </ul>
       </aside>
       <section>
