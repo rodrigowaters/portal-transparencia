@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div style="height: 100%" id="app">
     <Header/>
     <main class="container-fluid">
       <aside>
