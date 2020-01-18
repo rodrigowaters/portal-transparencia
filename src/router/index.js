@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
     {path: '/', name: 'home', component: Home},
+    {path: '/mapa-do-site', component: () => import('../views/Mapa-Do-Site')},
     {path: '/busca-rapida', component: () => import('../views/Busca-Rapida.vue')},
     {path: '/busca-rapida/:query', component: () => import('../views/Busca-Rapida.vue'), props: true},
     {

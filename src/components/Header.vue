@@ -15,13 +15,17 @@
                     <li role="menuitem"><a href="#">A-</a></li>
                     <li role="menuitem"><a href="#">ACESSIBILIDADE</a></li>
                     <li role="menuitem"><a href="#">ALTO CONSTRATE</a></li>
-                    <li role="menuitem"><a href="#">MAPA DO SITE</a></li>
+                    <li role="menuitem">
+                        <router-link to="/mapa-do-site">MAPA DO SITE</router-link>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="row">
             <div class="col logo">
-                <h1><a href="#">Portal da Transpar<strong>ê</strong>ncia</a></h1><span>Prefeitura Municipal de São Leopoldo</span></div>
+                <h1><a href="#">Portal da Transparência</a></h1>
+                <span>Prefeitura Municipal de São Leopoldo</span>
+            </div>
         </div>
         <div class="row" id="busca-rapida">
             <div class="col"></div>
