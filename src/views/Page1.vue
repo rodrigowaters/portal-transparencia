@@ -1,5 +1,5 @@
 <template>
-  <div>
-    Page1
-  </div>
+    <div>
+        Page1
+    </div>
 </template>
