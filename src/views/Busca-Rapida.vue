@@ -1,12 +1,40 @@
 <template>
     <div>
-        Busca Rapida {{query}}
+
+        Busca Rapida -> {{query}}
+
+        <v-tree :scope-data="menus">
+
+            <div slot-scope="menuLevel">
+                <div v-for="menuItem in menuLevel" track-by="$index" v-bind:key="menuItem.title">
+
+                    <a v-show=" showLink( menuItem, query ) " :href="menuItem.url">{{ menuItem.title }}</a>
+
+                    <v-tree v-if="menuItem.children" :scope-data="menuItem.children"></v-tree>
+                </div>
+            </div>
+
+        </v-tree>
+
     </div>
 </template>
 
 <script>
     export default {
-        name : 'busca-rapida',
-        props: ['query'],
+        name   : 'busca-rapida',
+        props  : ['query'],
+        data()
+        {
+            return {
+                menus: this.$store.getters.menus
+            }
+        },
+        methods: {
+            showLink: (item, query) =>
+            {
+                let result = item.title.toLowerCase().match(new RegExp(query, 'i'))
+                return item.hasOwnProperty('url') && result != null;
+            }
+        }
     }
 </script>
