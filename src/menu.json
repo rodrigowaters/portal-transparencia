@@ -1,319 +1,215 @@
 [
   {
-    "descricao": "Licitações",
-    "url": "?secao=licitacoes&amp;sub=info_licitacao",
-    "open": false,
-    "items": []
+    "title": "Licitações",
+    "url": "?secao=licitacoes&amp;sub=info_licitacao"
   },
   {
-    "descricao": "Acesso à Informação",
-    "url": "?secao=acesso_informacao",
-    "open": false,
-    "items": []
+    "title": "Acesso à Informação",
+    "url": "?secao=acesso_informacao"
   },
   {
-    "descricao": "Lei 12.527/2011",
-    "url": "http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Lei/L12527.htm",
-    "open": true,
-    "items": []
+    "title": "Lei 12.527/2011",
+    "url": "http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Lei/L12527.htm"
   },
   {
-    "descricao": "Regulamentação da LAI local",
-    "url": "?secao=dinamico&amp;id=2113",
-    "openExtern": false,
-    "items": []
+    "title": "Regulamentação da LAI local",
+    "url": "?secao=dinamico&amp;id=2113"
   },
   {
-    "descricao": "Portaria STN n°828",
-    "url": "?secao=dinamico&amp;id=1221",
-    "openExtern": false,
-    "items": []
+    "title": "Portaria STN n°828",
+    "url": "?secao=dinamico&amp;id=1221"
   },
   {
-    "descricao": "ESTRUTURA ORGANIZACIONAL",
-    "url": "?secao=dinamico&amp;id=2053",
-    "openExtern": false,
-    "items": []
+    "title": "ESTRUTURA ORGANIZACIONAL",
+    "url": "?secao=dinamico&amp;id=2053"
   },
   {
-    "descricao": "SERVIÇOS DE INTERESSE COLETIVO",
-    "url": "?secao=dinamico&amp;id=2114",
-    "openExtern": false,
-    "items": []
+    "title": "SERVIÇOS DE INTERESSE COLETIVO",
+    "url": "?secao=dinamico&amp;id=2114"
   },
   {
-    "descricao": "COMPRAS E LICITAÇÕES",
-    "url": "",
-    "openExtern": false,
-    "items": [
+    "title": "COMPRAS E LICITAÇÕES",
+    "children": [
       {
-        "descricao": "Compras",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Compras",
+        "children": [
           {
-            "descricao": "COMPRAS 2015",
-            "url": "?secao=dinamico&amp;id=2076",
-            "openExtern": false,
-            "items": []
+            "title": "COMPRAS 2015",
+            "url": "?secao=dinamico&amp;id=2076"
           },
           {
-            "descricao": "COMPRAS 2016",
-            "url": "?secao=dinamico&amp;id=2077",
-            "openExtern": false,
-            "items": []
+            "title": "COMPRAS 2016",
+            "url": "?secao=dinamico&amp;id=2077"
           },
           {
-            "descricao": "COMPRAS 2017",
-            "url": "?secao=dinamico&amp;id=2188",
-            "openExtern": false,
-            "items": []
+            "title": "COMPRAS 2017",
+            "url": "?secao=dinamico&amp;id=2188"
           },
           {
-            "descricao": "COMPRAS 2018",
-            "url": "?secao=dinamico&amp;id=3172",
-            "openExtern": false,
-            "items": []
+            "title": "COMPRAS 2018",
+            "url": "?secao=dinamico&amp;id=3172"
           },
           {
-            "descricao": "COMPRAS 2019",
-            "url": "?secao=dinamico&amp;id=3591",
-            "openExtern": false,
-            "items": []
+            "title": "COMPRAS 2019",
+            "url": "?secao=dinamico&amp;id=3591"
           }
         ]
       },
       {
-        "descricao": "Licitações",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Licitações",
+        "children": [
           {
-            "descricao": "LICITAÇÕES a partir 2016",
-            "url": "?secao=dinamico&amp;id=2078",
-            "openExtern": false,
-            "items": []
+            "title": "LICITAÇÕES a partir 2016",
+            "url": "?secao=dinamico&amp;id=2078"
           }
         ]
       }
     ]
   },
   {
-    "descricao": "Contratos",
-    "url": "?secao=contrato",
-    "openExtern": false,
-    "items": []
+    "title": "Contratos",
+    "url": "?secao=contrato"
   },
   {
-    "descricao": "CONTRATOS",
-    "url": "",
-    "openExtern": false,
-    "items": [
+    "title": "CONTRATOS",
+    "children": [
       {
-        "descricao": "Contratos e Seus Aditivos",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Contratos e Seus Aditivos",
+        "children": [
           {
-            "descricao": "Contratos e Seus Aditivos 2011",
-            "url": "?secao=dinamico&amp;id=1166",
-            "openExtern": false,
-            "items": []
+            "title": "Contratos e Seus Aditivos 2011",
+            "url": "?secao=dinamico&amp;id=1166"
           },
           {
-            "descricao": "Contratos e Seus Aditivos 2012",
-            "url": "?secao=dinamico&amp;id=1167",
-            "openExtern": false,
-            "items": []
+            "title": "Contratos e Seus Aditivos 2012",
+            "url": "?secao=dinamico&amp;id=1167"
           },
           {
-            "descricao": "Contratos e Seus Aditivos 2013",
-            "url": "?secao=dinamico&amp;id=1168",
-            "openExtern": false,
-            "items": []
+            "title": "Contratos e Seus Aditivos 2013",
+            "url": "?secao=dinamico&amp;id=1168"
           },
           {
-            "descricao": "Contratos e Seus Aditivos 2014",
-            "url": "?secao=dinamico&amp;id=1343",
-            "openExtern": false,
-            "items": []
+            "title": "Contratos e Seus Aditivos 2014",
+            "url": "?secao=dinamico&amp;id=1343"
           },
           {
-            "descricao": "Contratos e seus Aditivos a partir 2015",
-            "url": "?secao=dinamico&amp;id=2068",
-            "openExtern": false,
-            "items": []
+            "title": "Contratos e seus Aditivos a partir 2015",
+            "url": "?secao=dinamico&amp;id=2068"
           }
         ]
       }
     ]
   },
   {
-    "descricao": "CERTIDÕES TCE - Cumprimento LRF",
-    "url": "?secao=dinamico&amp;id=3452",
-    "openExtern": false,
-    "items": []
+    "title": "CERTIDÕES TCE - Cumprimento LRF",
+    "url": "?secao=dinamico&amp;id=3452"
   },
   {
-    "descricao": "RECEITAS",
-    "url": "?secao=receitas",
-    "openExtern": false,
-    "items": []
+    "title": "RECEITAS",
+    "url": "?secao=receitas"
   },
   {
-    "descricao": "Despesas",
-    "url": "",
-    "openExtern": false,
-    "items": [
+    "title": "Despesas",
+    "children": [
       {
-        "descricao": "Despesa",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Despesa",
+        "children": [
           {
-            "descricao": "Diárias",
-            "url": "?secao=despesas&amp;sub=diarias",
-            "openExtern": false,
-            "items": []
+            "title": "Diárias",
+            "url": "?secao=despesas&amp;sub=diarias"
           },
           {
-            "descricao": "Passagens e Locomoção",
-            "url": "?secao=despesas&amp;sub=passagens",
-            "openExtern": false,
-            "items": []
+            "title": "Passagens e Locomoção",
+            "url": "?secao=despesas&amp;sub=passagens"
           },
           {
-            "descricao": "Empenho Orçamentário",
-            "url": "?secao=despesas&amp;sub=empenho",
-            "openExtern": false,
-            "items": []
+            "title": "Empenho Orçamentário",
+            "url": "?secao=despesas&amp;sub=empenho"
           },
           {
-            "descricao": "Despesa Orçamentária por Categoria",
-            "url": "?secao=despesas&amp;sub=por_categoria",
-            "openExtern": false,
-            "items": []
+            "title": "Despesa Orçamentária por Categoria",
+            "url": "?secao=despesas&amp;sub=por_categoria"
           },
           {
-            "descricao": "Despesa por Função e Subfunção",
-            "url": "?secao=despesas&amp;sub=funcao_subfuncao",
-            "openExtern": false,
-            "items": []
+            "title": "Despesa por Função e Subfunção",
+            "url": "?secao=despesas&amp;sub=funcao_subfuncao"
           },
           {
-            "descricao": "Despesa Extra",
-            "url": "?secao=despesas&amp;sub=extra",
-            "openExtern": false,
-            "items": []
+            "title": "Despesa Extra",
+            "url": "?secao=despesas&amp;sub=extra"
           },
           {
-            "descricao": "Relação Cronológica para Pagamento",
-            "url": "?secao=despesas&amp;sub=relacao_cronologica_para_pagamento",
-            "openExtern": false,
-            "items": []
+            "title": "Relação Cronológica para Pagamento",
+            "url": "?secao=despesas&amp;sub=relacao_cronologica_para_pagamento"
           }
         ]
       }
     ]
   },
   {
-    "descricao": "REPASSES E TRANSFERÊNCIAS",
-    "url": "",
-    "openExtern": false,
-    "items": [
+    "title": "REPASSES E TRANSFERÊNCIAS",
+    "children": [
       {
-        "descricao": "Recebidos pelo Município",
-        "url": "?secao=dinamico&amp;id=2088",
-        "openExtern": false,
-        "items": []
+        "title": "Recebidos pelo Município",
+        "url": "?secao=dinamico&amp;id=2088"
       },
       {
-        "descricao": "Efetuados pelo Município",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Efetuados pelo Município",
+        "children": [
           {
-            "descricao": "Repasses a Outras Entidades",
-            "url": "",
-            "openExtern": false,
-            "items": [
+            "title": "Repasses a Outras Entidades",
+            "children": [
               {
-                "descricao": "CÂMARA MUNICIPAL DE VEREADORES",
-                "url": "",
-                "openExtern": false,
-                "items": [
+                "title": "CÂMARA MUNICIPAL DE VEREADORES",
+                "children": [
                   {
-                    "descricao": "Exercício 2017",
-                    "url": "?secao=dinamico&amp;id=2654",
-                    "openExtern": false,
-                    "items": []
+                    "title": "Exercício 2017",
+                    "url": "?secao=dinamico&amp;id=2654"
                   },
                   {
-                    "descricao": "Exercício 2016",
-                    "url": "?secao=dinamico&amp;id=2099",
-                    "openExtern": false,
-                    "items": []
+                    "title": "Exercício 2016",
+                    "url": "?secao=dinamico&amp;id=2099"
                   },
                   {
-                    "descricao": "Exercício 2018",
-                    "url": "?secao=dinamico&amp;id=3382",
-                    "openExtern": false,
-                    "items": []
+                    "title": "Exercício 2018",
+                    "url": "?secao=dinamico&amp;id=3382"
                   }
                 ]
               },
               {
-                "descricao": "Outras Entidades e Instituições",
-                "url": "",
-                "openExtern": false,
-                "items": [
+                "title": "Outras Entidades e Instituições",
+                "children": [
                   {
-                    "descricao": "Exercício 2016",
-                    "url": "?secao=dinamico&amp;id=2100",
-                    "openExtern": false,
-                    "items": []
+                    "title": "Exercício 2016",
+                    "url": "?secao=dinamico&amp;id=2100"
                   },
                   {
-                    "descricao": "Exercício 2017",
-                    "url": "",
-                    "openExtern": false,
-                    "items": [
+                    "title": "Exercício 2017",
+                    "children": [
                       {
-                        "descricao": "Contribuições",
-                        "url": "?secao=dinamico&amp;id=2706",
-                        "openExtern": false,
-                        "items": []
+                        "title": "Contribuições",
+                        "url": "?secao=dinamico&amp;id=2706"
                       },
                       {
-                        "descricao": "Subvenções Sociais",
-                        "url": "?secao=dinamico&amp;id=2707",
-                        "openExtern": false,
-                        "items": []
+                        "title": "Subvenções Sociais",
+                        "url": "?secao=dinamico&amp;id=2707"
                       }
                     ]
                   },
                   {
-                    "descricao": "",
-                    "url": "Exercício 2018",
-                    "openExtern": false,
-                    "items": [
+                    "title": "Exercício 2018",
+                    "children": [
                       {
-                        "descricao": "Subvenções Sociais",
-                        "url": "?secao=dinamico&amp;id=3175",
-                        "openExtern": false,
-                        "items": []
+                        "title": "Subvenções Sociais",
+                        "url": "?secao=dinamico&amp;id=3175"
                       },
                       {
-                        "descricao": "Subvenções Econômicas",
-                        "url": "?secao=dinamico&amp;id=3207",
-                        "openExtern": false,
-                        "items": []
+                        "title": "Subvenções Econômicas",
+                        "url": "?secao=dinamico&amp;id=3207"
                       },
                       {
-                        "descricao": "Contribuições",
-                        "url": "?secao=dinamico&amp;id=3174",
-                        "openExtern": false,
-                        "items": []
+                        "title": "Contribuições",
+                        "url": "?secao=dinamico&amp;id=3174"
                       }
                     ]
                   }
@@ -326,627 +222,426 @@
     ]
   },
   {
-    "descricao": "INDICADORES MUNICIPAIS",
-    "url": "",
-    "openExtern": false,
-    "items": [
+    "title": "INDICADORES MUNICIPAIS",
+    "children": [
       {
-        "descricao": "Indicadores Saúde",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Indicadores Saúde",
+        "children": [
           {
-            "descricao": "Indicadores Saúde 2012",
-            "url": "?secao=dinamico&amp;id=1033",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2012",
+            "url": "?secao=dinamico&amp;id=1033"
           },
           {
-            "descricao": "Indicadores Saúde 2013",
-            "url": "?secao=dinamico&amp;id=1034",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2013",
+            "url": "?secao=dinamico&amp;id=1034"
           },
           {
-            "descricao": "Indicadores Saúde 2014",
-            "url": "?secao=dinamico&amp;id=1378",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2014",
+            "url": "?secao=dinamico&amp;id=1378"
           },
           {
-            "descricao": "Indicadores Saúde 2015",
-            "url": "?secao=dinamico&amp;id=2055",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2015",
+            "url": "?secao=dinamico&amp;id=2055"
           },
           {
-            "descricao": "Indicadores Saúde 2016",
-            "url": "?secao=dinamico&amp;id=2056",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2016",
+            "url": "?secao=dinamico&amp;id=2056"
           },
           {
-            "descricao": "Indicadores Saúde 2017",
-            "url": "?secao=dinamico&amp;id=2316",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2017",
+            "url": "?secao=dinamico&amp;id=2316"
           },
           {
-            "descricao": "Indicadores Saúde 2018",
-            "url": "?secao=dinamico&amp;id=3340",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2018",
+            "url": "?secao=dinamico&amp;id=3340"
           },
           {
-            "descricao": "Indicadores Saúde 2019",
-            "url": "?secao=dinamico&amp;id=3644",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Saúde 2019",
+            "url": "?secao=dinamico&amp;id=3644"
           }
         ]
       },
       {
-        "descricao": "Indicadores Educação",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Indicadores Educação",
+        "children": [
           {
-            "descricao": "Indicadores Educação 2012",
-            "url": "?secao=dinamico&amp;id=1038",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2012",
+            "url": "?secao=dinamico&amp;id=1038"
           },
           {
-            "descricao": "Indicadores Educação 2013",
-            "url": "?secao=dinamico&amp;id=1039",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2013",
+            "url": "?secao=dinamico&amp;id=1039"
           },
           {
-            "descricao": "Indicadores Educação 2014",
-            "url": "?secao=dinamico&amp;id=1379",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2014",
+            "url": "?secao=dinamico&amp;id=1379"
           },
           {
-            "descricao": "Indicadores Educação 2015",
-            "url": "?secao=dinamico&amp;id=2057",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2015",
+            "url": "?secao=dinamico&amp;id=2057"
           },
           {
-            "descricao": "Indicadores Educação 2016",
-            "url": "?secao=dinamico&amp;id=2058",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2016",
+            "url": "?secao=dinamico&amp;id=2058"
           },
           {
-            "descricao": "Indicadores Educação 2017",
-            "url": "?secao=dinamico&amp;id=2310",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2017",
+            "url": "?secao=dinamico&amp;id=2310"
           },
           {
-            "descricao": "Indicadores Educação 2018",
-            "url": "?secao=dinamico&amp;id=3341",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2018",
+            "url": "?secao=dinamico&amp;id=3341"
           },
           {
-            "descricao": "Indicadores Educação 2019",
-            "url": "?secao=dinamico&amp;id=3646",
-            "openExtern": false,
-            "items": []
+            "title": "Indicadores Educação 2019",
+            "url": "?secao=dinamico&amp;id=3646"
           }
         ]
       }
     ]
   },
   {
-    "descricao": "PROGRAMAS, AÇÕES, PROJETOS E OBRAS",
-    "url": "",
-    "openExtern": false,
-    "items": [
+    "title": "PROGRAMAS, AÇÕES, PROJETOS E OBRAS",
+    "children": [
       {
-        "descricao": "PPA",
-        "url": "?secao=dinamico&amp;id=2383",
-        "openExtern": false,
-        "items": []
+        "title": "PPA",
+        "url": "?secao=dinamico&amp;id=2383"
       },
       {
-        "descricao": "LDO",
-        "url": "?secao=dinamico&amp;id=2384",
-        "openExtern": false,
-        "items": []
+        "title": "LDO",
+        "url": "?secao=dinamico&amp;id=2384"
       },
       {
-        "descricao": "LOA",
-        "url": "?secao=dinamico&amp;id=2385",
-        "openExtern": false,
-        "items": []
+        "title": "LOA",
+        "url": "?secao=dinamico&amp;id=2385"
       },
       {
-        "descricao": "EXECUÇÃO DE ORÇAMENTOS",
-        "url": "?secao=dinamico&amp;id=2386",
-        "openExtern": false,
-        "items": []
+        "title": "EXECUÇÃO DE ORÇAMENTOS",
+        "url": "?secao=dinamico&amp;id=2386"
       },
       {
-        "descricao": "DADOS GERAIS DE ACOMPANHAMENTO",
-        "url": "?secao=dinamico&amp;id=2387",
-        "openExtern": false,
-        "items": []
+        "title": "DADOS GERAIS DE ACOMPANHAMENTO",
+        "url": "?secao=dinamico&amp;id=2387"
       }
     ]
   },
   {
-    "descricao": "RELATÓRIOS E DEMONSTRATIVOS CONTÁBEIS",
-    "url": "",
-    "openExtern": false,
-    "items": []
-  },
-  {
-    "descricao": "Responsabilidade Fiscal",
-    "url": "",
-    "openExtern": false,
-    "items": [
+    "title": "RELATÓRIOS E DEMONSTRATIVOS CONTÁBEIS",
+    "children": [
       {
-        "descricao": "Relatório Resumido da Execução Orçamentária",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Responsabilidade Fiscal",
+        "children": [
           {
-            "descricao": "Exercício 2011",
-            "url": "?secao=dinamico&amp;id=1069",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Exercício 2012",
-            "url": "?secao=dinamico&amp;id=1070",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Exercício 2013",
-            "url": "?secao=dinamico&amp;id=1071",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Exercício 2014",
-            "url": "?secao=dinamico&amp;id=1376",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Exercício 2015",
-            "url": "?secao=dinamico&amp;id=1900",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Exercício a partir 2016",
-            "url": "?secao=dinamico&amp;id=2070",
-            "openExtern": false,
-            "items": []
-          }
-        ]
-      },
-      {
-        "descricao": "Relatório de Gestão Fiscal",
-        "url": "",
-        "openExtern": false,
-        "items": [
-          {
-            "descricao": "Gestão Fiscal 2012",
-            "url": "?secao=dinamico&amp;id=1161",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Gestão Fiscal 2012",
-            "url": "?secao=dinamico&amp;id=1162",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Gestão Fiscal 2012",
-            "url": "?secao=dinamico&amp;id=1382",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Gestão Fiscal 2012",
-            "url": "?secao=dinamico&amp;id=2062",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Gestão Fiscal a partir 2016",
-            "url": "?secao=dinamico&amp;id=2063",
-            "openExtern": false,
-            "items": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "descricao": "Demonstrações Contábeis",
-    "url": "",
-    "openExtern": false,
-    "items": [
-      {
-        "descricao": "Balanço Orçamentário",
-        "url": "",
-        "openExtern": false,
-        "items": [
-          {
-            "descricao": "Balanço Orçamentário- 2018",
-            "url": "?secao=dinamico&amp;id=3421",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Orçamentário - 2011",
-            "url": "?secao=dinamico&amp;id=1173",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Orçamentário - 2012",
-            "url": "?secao=dinamico&amp;id=1174",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Orçamentário - 2013",
-            "url": "?secao=dinamico&amp;id=1393",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Orçamentário- 2014",
-            "url": "?secao=dinamico&amp;id=2065",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Orçamentário 2015",
-            "url": "?secao=dinamico&amp;id=2136",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Orçamentário 2016",
-            "url": "?secao=dinamico&amp;id=2137",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Orçamentário 2017",
-            "url": "?secao=dinamico&amp;id=2695",
-            "openExtern": false,
-            "items": []
-          }
-        ]
-      },
-      {
-        "descricao": "Balanço Patrimonial",
-        "url": "",
-        "openExtern": false,
-        "items": [
-          {
-            "descricao": "Balanço Patrimonial 2018",
-            "url": "?secao=dinamico&amp;id=3498",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Patrimonial 2011",
-            "url": "?secao=dinamico&amp;id=1169",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Patrimonial 2012",
-            "url": "?secao=dinamico&amp;id=1170",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Patrimonial 2013",
-            "url": "?secao=dinamico&amp;id=1397",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Patrimonial-2014",
-            "url": "?secao=dinamico&amp;id=2067",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Patrimonial 2015",
-            "url": "?secao=dinamico&amp;id=2140",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Patrimonial 2016",
-            "url": "?secao=dinamico&amp;id=2141",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Patrimonial 2017",
-            "url": "?secao=dinamico&amp;id=2694",
-            "openExtern": false,
-            "items": []
-          }
-        ]
-      },
-      {
-        "descricao": "Balanço Financeiro",
-        "url": "",
-        "openExtern": false,
-        "items": [
-          {
-            "descricao": "Balanço Financeiro 2011",
-            "url": "?secao=dinamico&amp;id=1178",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Financeiro 2012",
-            "url": "?secao=dinamico&amp;id=1179",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Financeiro 2013",
-            "url": "?secao=dinamico&amp;id=1395",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Financeiro-2014",
-            "url": "?secao=dinamico&amp;id=2066",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Financeiro 2015",
-            "url": "?secao=dinamico&amp;id=2144",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Financeiro 2016",
-            "url": "?secao=dinamico&amp;id=2145",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Financeiro 2017",
-            "url": "?secao=dinamico&amp;id=2696",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Balanço Financeiro 2018",
-            "url": "?secao=dinamico&amp;id=3499",
-            "openExtern": false,
-            "items": []
-          }
-        ]
-      },
-      {
-        "descricao": "Demonstrativo das Variações Patrimoniais",
-        "url": "",
-        "openExtern": false,
-        "items": [
-          {
-            "descricao": "Demonstrativo das Variações Patrimoniais 2018",
-            "url": "?secao=dinamico&amp;id=3500",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstrativo das Variações Patrimoniais - 2011",
-            "url": "?secao=dinamico&amp;id=1182",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstrativo das Variações Patrimoniais - 2012",
-            "url": "?secao=dinamico&amp;id=1183",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstrativo das Variações Patrimoniais - 2013",
-            "url": "?secao=dinamico&amp;id=1399",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstrativo das Variações Patrimoniais- 2014",
-            "url": "?secao=dinamico&amp;id=2064",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstrativo das Variações Patrimoniais 2015",
-            "url": "?secao=dinamico&amp;id=2148",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstrativo das Variações Patrimoniais 2016",
-            "url": "?secao=dinamico&amp;id=2149",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstração das Variações Patrimoniais 2017",
-            "url": "?secao=dinamico&amp;id=2697",
-            "openExtern": false,
-            "items": []
-          }
-        ]
-      },
-      {
-        "descricao": "Demonstração dos Fluxos de Caixa -(DFC)",
-        "url": "",
-        "openExtern": false,
-        "items": [
-          {
-            "descricao": "Demonstração dos Fluxos de Caixa - 2016",
-            "url": "?secao=dinamico&amp;id=2692",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstração dos Fluxos de Caixa - 2017",
-            "url": "?secao=dinamico&amp;id=2698",
-            "openExtern": false,
-            "items": []
-          },
-          {
-            "descricao": "Demonstração dos Fluxos de Caixa - 2018",
-            "url": "?secao=dinamico&amp;id=3501",
-            "openExtern": false,
-            "items": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "descricao": "PRESTAÇÃO DE CONTAS",
-    "url": "",
-    "openExtern": false,
-    "items": [
-      {
-        "descricao": "Relatório de Gestão",
-        "url": "?secao=dinamico&amp;id=2525",
-        "openExtern": false,
-        "items": []
-      },
-      {
-        "descricao": "Parecer Controle Interno",
-        "url": "?secao=dinamico&amp;id=2527",
-        "openExtern": false,
-        "items": []
-      }
-    ]
-  },
-  {
-    "descricao": "PATRIMÔNIO PÚBLICO - Imóveis e Veículos",
-    "url": "?secao=consulta_imoveis_veiculos",
-    "openExtern": false,
-    "items": []
-  },
-  {
-    "descricao": "RECURSOS HUMANOS",
-    "url": "",
-    "openExtern": false,
-    "items": [
-      {
-        "descricao": "Folha de Pagamento",
-        "url": "",
-        "openExtern": false,
-        "items": [
-          {
-            "descricao": "Executivo",
-            "url": "",
-            "openExtern": false,
-            "items": [
+            "title": "Relatório Resumido da Execução Orçamentária",
+            "children": [
               {
-                "descricao": "Exercício 2014",
-                "url": "?secao=dinamico&amp;id=1372",
-                "openExtern": false,
-                "items": []
+                "title": "Exercício 2011",
+                "url": "?secao=dinamico&amp;id=1069"
               },
               {
-                "descricao": "Exercício 2013",
-                "url": "?secao=dinamico&amp;id=1224",
-                "openExtern": false,
-                "items": []
+                "title": "Exercício 2012",
+                "url": "?secao=dinamico&amp;id=1070"
               },
               {
-                "descricao": "Exercício 2015",
-                "url": "?secao=dinamico&amp;id=1919",
-                "openExtern": false,
-                "items": []
+                "title": "Exercício 2013",
+                "url": "?secao=dinamico&amp;id=1071"
               },
               {
-                "descricao": "Exercício a partir 2016",
-                "url": "?secao=dinamico&amp;id=2049",
-                "openExtern": false,
-                "items": []
+                "title": "Exercício 2014",
+                "url": "?secao=dinamico&amp;id=1376"
+              },
+              {
+                "title": "Exercício 2015",
+                "url": "?secao=dinamico&amp;id=1900"
+              },
+              {
+                "title": "Exercício a partir 2016",
+                "url": "?secao=dinamico&amp;id=2070"
+              }
+            ]
+          },
+          {
+            "title": "Relatório de Gestão Fiscal",
+            "children": [
+              {
+                "title": "Gestão Fiscal 2012",
+                "url": "?secao=dinamico&amp;id=1161"
+              },
+              {
+                "title": "Gestão Fiscal 2012",
+                "url": "?secao=dinamico&amp;id=1162"
+              },
+              {
+                "title": "Gestão Fiscal 2012",
+                "url": "?secao=dinamico&amp;id=1382"
+              },
+              {
+                "title": "Gestão Fiscal 2012",
+                "url": "?secao=dinamico&amp;id=2062"
+              },
+              {
+                "title": "Gestão Fiscal a partir 2016",
+                "url": "?secao=dinamico&amp;id=2063"
               }
             ]
           }
         ]
       },
       {
-        "descricao": "Quadro Funcional",
-        "url": "",
-        "openExtern": false,
-        "items": [
+        "title": "Demonstrações Contábeis",
+        "children": [
           {
-            "descricao": "Exercício 2013",
-            "url": "?secao=dinamico&amp;id=2108",
-            "openExtern": false,
-            "items": []
+            "title": "Balanço Orçamentário",
+            "children": [
+              {
+                "title": "Balanço Orçamentário- 2018",
+                "url": "?secao=dinamico&amp;id=3421"
+              },
+              {
+                "title": "Balanço Orçamentário - 2011",
+                "url": "?secao=dinamico&amp;id=1173"
+              },
+              {
+                "title": "Balanço Orçamentário - 2012",
+                "url": "?secao=dinamico&amp;id=1174"
+              },
+              {
+                "title": "Balanço Orçamentário - 2013",
+                "url": "?secao=dinamico&amp;id=1393"
+              },
+              {
+                "title": "Balanço Orçamentário- 2014",
+                "url": "?secao=dinamico&amp;id=2065"
+              },
+              {
+                "title": "Balanço Orçamentário 2015",
+                "url": "?secao=dinamico&amp;id=2136"
+              },
+              {
+                "title": "Balanço Orçamentário 2016",
+                "url": "?secao=dinamico&amp;id=2137"
+              },
+              {
+                "title": "Balanço Orçamentário 2017",
+                "url": "?secao=dinamico&amp;id=2695"
+              }
+            ]
           },
           {
-            "descricao": "Exercício 2014",
-            "url": "?secao=dinamico&amp;id=2109",
-            "openExtern": false,
-            "items": []
+            "title": "Balanço Patrimonial",
+            "children": [
+              {
+                "title": "Balanço Patrimonial 2018",
+                "url": "?secao=dinamico&amp;id=3498"
+              },
+              {
+                "title": "Balanço Patrimonial 2011",
+                "url": "?secao=dinamico&amp;id=1169"
+              },
+              {
+                "title": "Balanço Patrimonial 2012",
+                "url": "?secao=dinamico&amp;id=1170"
+              },
+              {
+                "title": "Balanço Patrimonial 2013",
+                "url": "?secao=dinamico&amp;id=1397"
+              },
+              {
+                "title": "Balanço Patrimonial-2014",
+                "url": "?secao=dinamico&amp;id=2067"
+              },
+              {
+                "title": "Balanço Patrimonial 2015",
+                "url": "?secao=dinamico&amp;id=2140"
+              },
+              {
+                "title": "Balanço Patrimonial 2016",
+                "url": "?secao=dinamico&amp;id=2141"
+              },
+              {
+                "title": "Balanço Patrimonial 2017",
+                "url": "?secao=dinamico&amp;id=2694"
+              }
+            ]
           },
           {
-            "descricao": "Exercício a partir 2015",
-            "url": "?secao=dinamico&amp;id=2110",
-            "openExtern": false,
-            "items": []
+            "title": "Balanço Financeiro",
+            "children": [
+              {
+                "title": "Balanço Financeiro 2011",
+                "url": "?secao=dinamico&amp;id=1178"
+              },
+              {
+                "title": "Balanço Financeiro 2012",
+                "url": "?secao=dinamico&amp;id=1179"
+              },
+              {
+                "title": "Balanço Financeiro 2013",
+                "url": "?secao=dinamico&amp;id=1395"
+              },
+              {
+                "title": "Balanço Financeiro-2014",
+                "url": "?secao=dinamico&amp;id=2066"
+              },
+              {
+                "title": "Balanço Financeiro 2015",
+                "url": "?secao=dinamico&amp;id=2144"
+              },
+              {
+                "title": "Balanço Financeiro 2016",
+                "url": "?secao=dinamico&amp;id=2145"
+              },
+              {
+                "title": "Balanço Financeiro 2017",
+                "url": "?secao=dinamico&amp;id=2696"
+              },
+              {
+                "title": "Balanço Financeiro 2018",
+                "url": "?secao=dinamico&amp;id=3499"
+              }
+            ]
+          },
+          {
+            "title": "Demonstrativo das Variações Patrimoniais",
+            "children": [
+              {
+                "title": "Demonstrativo das Variações Patrimoniais 2018",
+                "url": "?secao=dinamico&amp;id=3500"
+              },
+              {
+                "title": "Demonstrativo das Variações Patrimoniais - 2011",
+                "url": "?secao=dinamico&amp;id=1182"
+              },
+              {
+                "title": "Demonstrativo das Variações Patrimoniais - 2012",
+                "url": "?secao=dinamico&amp;id=1183"
+              },
+              {
+                "title": "Demonstrativo das Variações Patrimoniais - 2013",
+                "url": "?secao=dinamico&amp;id=1399"
+              },
+              {
+                "title": "Demonstrativo das Variações Patrimoniais- 2014",
+                "url": "?secao=dinamico&amp;id=2064"
+              },
+              {
+                "title": "Demonstrativo das Variações Patrimoniais 2015",
+                "url": "?secao=dinamico&amp;id=2148"
+              },
+              {
+                "title": "Demonstrativo das Variações Patrimoniais 2016",
+                "url": "?secao=dinamico&amp;id=2149"
+              },
+              {
+                "title": "Demonstração das Variações Patrimoniais 2017",
+                "url": "?secao=dinamico&amp;id=2697"
+              }
+            ]
+          },
+          {
+            "title": "Demonstração dos Fluxos de Caixa -(DFC)",
+            "children": [
+              {
+                "title": "Demonstração dos Fluxos de Caixa - 2016",
+                "url": "?secao=dinamico&amp;id=2692"
+              },
+              {
+                "title": "Demonstração dos Fluxos de Caixa - 2017",
+                "url": "?secao=dinamico&amp;id=2698"
+              },
+              {
+                "title": "Demonstração dos Fluxos de Caixa - 2018",
+                "url": "?secao=dinamico&amp;id=3501"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "PRESTAÇÃO DE CONTAS",
+        "children": [
+          {
+            "title": "Relatório de Gestão",
+            "url": "?secao=dinamico&amp;id=2525"
+          },
+          {
+            "title": "Parecer Controle Interno",
+            "url": "?secao=dinamico&amp;id=2527"
           }
         ]
       }
     ]
   },
   {
-    "descricao": "Restos a pagar",
-    "url": "?secao=restos_pagar",
-    "openExtern": false,
-    "items": []
+    "title": "PATRIMÔNIO PÚBLICO - Imóveis e Veículos",
+    "url": "?secao=consulta_imoveis_veiculos"
   },
   {
-    "descricao": "FALE CONOSCO- OUVIDORIA",
-    "url": "?secao=dinamico&amp;id=2080",
-    "openExtern": false,
-    "items": []
+    "title": "RECURSOS HUMANOS",
+    "children": [
+      {
+        "title": "Folha de Pagamento",
+        "children": [
+          {
+            "title": "Executivo",
+            "children": [
+              {
+                "title": "Exercício 2014",
+                "url": "?secao=dinamico&amp;id=1372"
+              },
+              {
+                "title": "Exercício 2013",
+                "url": "?secao=dinamico&amp;id=1224"
+              },
+              {
+                "title": "Exercício 2015",
+                "url": "?secao=dinamico&amp;id=1919"
+              },
+              {
+                "title": "Exercício a partir 2016",
+                "url": "?secao=dinamico&amp;id=2049"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Quadro Funcional",
+        "children": [
+          {
+            "title": "Exercício 2013",
+            "url": "?secao=dinamico&amp;id=2108"
+          },
+          {
+            "title": "Exercício 2014",
+            "url": "?secao=dinamico&amp;id=2109"
+          },
+          {
+            "title": "Exercício a partir 2015",
+            "url": "?secao=dinamico&amp;id=2110"
+          }
+        ]
+      }
+    ]
   },
   {
-    "descricao": "PEDIDO DE INFORMAÇÃO",
-    "url": "?secao=dinamico&amp;id=2082",
-    "openExtern": false,
-    "items": []
+    "title": "Restos a pagar",
+    "url": "?secao=restos_pagar"
   },
   {
-    "descricao": "RELATÓRIO- PEDIDOS DE INFORMAÇÃO",
-    "url": "?secao=dinamico&amp;id=2085",
-    "openExtern": false,
-    "items": []
+    "title": "FALE CONOSCO- OUVIDORIA",
+    "url": "?secao=dinamico&amp;id=2080"
   },
   {
-    "descricao": "PERGUNTAS E RESPOSTAS",
-    "url": "?secao=dinamico&amp;id=2111",
-    "openExtern": false,
-    "items": []
+    "title": "PEDIDO DE INFORMAÇÃO",
+    "url": "?secao=dinamico&amp;id=2082"
+  },
+  {
+    "title": "RELATÓRIO- PEDIDOS DE INFORMAÇÃO",
+    "url": "?secao=dinamico&amp;id=2085"
+  },
+  {
+    "title": "PERGUNTAS E RESPOSTAS",
+    "url": "?secao=dinamico&amp;id=2111"
   }
 ]
