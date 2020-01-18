@@ -1,5 +1,5 @@
 <template>
     <div>
-        Page1
+        Pagina nao encontrada
     </div>
 </template>

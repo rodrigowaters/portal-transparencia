@@ -5,8 +5,10 @@
       <aside>
         <ul>
           <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/page-1">Page 1</router-link></li>
           <li><router-link to="/busca-rapida">Busca rápida</router-link></li>
+          <li>
+            <router-link to="/page-1">Simular pagina nao encontrada</router-link>
+          </li>
         </ul>
       </aside>
       <section>

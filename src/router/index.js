@@ -8,7 +8,15 @@ const routes = [
     {path: '/', name: 'home', component: Home},
     {path: '/busca-rapida', component: () => import('../views/Busca-Rapida.vue')},
     {path: '/busca-rapida/:query', component: () => import('../views/Busca-Rapida.vue'), props: true},
-    {path: '/page-1', name: 'page_1', component: () => import('../views/Page1.vue')},
+    {
+        path     : "*",
+        name     : "not-found",
+        component: () =>
+            import("../views/Not-Found.vue"),
+        meta     : {
+            visible: false
+        }
+    }
 ]
 
 const router = new VueRouter({
