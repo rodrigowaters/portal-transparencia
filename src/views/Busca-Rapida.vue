@@ -7,9 +7,7 @@
 
             <div slot-scope="menuLevel">
                 <div v-for="menuItem in menuLevel" track-by="$index" v-bind:key="menuItem.title">
-
-                    <a v-show=" showLink( menuItem, query ) " :href="menuItem.url">{{ menuItem.title }}</a>
-
+                    <router-link v-show=" showLink( menuItem, query ) " :to="menuItem.url">{{ menuItem.title }}</router-link>
                     <v-tree v-if="menuItem.children" :scope-data="menuItem.children"></v-tree>
                 </div>
             </div>
