@@ -1,31 +1,27 @@
 <template>
   <div>
-    {{ page_id }}
-    <div>{{ header }}</div>
-    <div>{{ content }}</div>
+    <div>{{ nome }}</div>
+    <div v-html="descricao"></div>
   </div>
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
   name: "dinamico",
   props: ["page_id"],
   data() {
     return {
-      header: "",
-      content: ""
+      nome     : "",
+      descricao: ""
     };
   },
-  mounted() {
-    axios
-      .get("http://ip-api.com/json/")
-      .then(
-        response => (
-          (this.header = response.data.city), (this.content = response.data.isp)
-        )
-      );
+  mounted()
+  {
+
+    let pagina = this.$store.getters.paginas_dinamicas(this.page_id);
+    this.nome = pagina.nome;
+    this.descricao = pagina.descricao;
+
   }
 };
 </script>

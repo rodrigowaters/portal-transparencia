@@ -16,7 +16,10 @@ export default new Vuex.Store({
         },
         paginas_dinamicas: state =>
         {
-            return state.paginas_dinamicas;
+            return pageId =>
+            {
+                return state.paginas_dinamicas.find(page => parseInt(page.id) === parseInt(pageId));
+            }
         }
     },
     mutations: {
@@ -34,7 +37,7 @@ export default new Vuex.Store({
         async fetchData({commit})
         {
             return await axios
-                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/4f3d7f2251b9c01c9cad8a2eca4d7adb8f3d56d8/getInfos.json', {
+                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/70c8b71ebf9994e6d5189e8fbac062ad607b8270/getInfos.json', {
                     headers: {
                         'Content-Type': 'application/json',
                     },
