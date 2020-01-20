@@ -20,6 +20,15 @@ import '../src/assets/css/styles.min.css'
 // V-Tree ( utilizado em Busca-Rapida e Mapa-do-Site )
 Vue.component('v-tree', VTree);
 
+// Progressbar
+import VueProgressBar from 'vue-progressbar'
+
+Vue.use(VueProgressBar, {
+  color: 'rgb(143, 255, 199)',
+  failedColor: 'red',
+  height: '2px'
+})
+
 new Vue({
   router,
   store,
