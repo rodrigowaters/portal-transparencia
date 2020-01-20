@@ -34,7 +34,8 @@
     mounted () {
       this.$Progress.finish();
     },
-    async created () {
+    created()
+    {
 
       // Inicia a Progressbar
       this.$Progress.start();
@@ -53,13 +54,6 @@
       this.$router.afterEach((to, from) => {
         console.log(from.path, ' -> ', to.path);
         this.$Progress.finish();
-      });
-
-      // Carrega as informações do site
-      await this.$store.dispatch('fetchData').then(() => {
-        console.log('then', this.$store.getters.menus)
-      }).finally(() => {
-        console.log('finally', this.$store.getters.menus)
       });
 
     }

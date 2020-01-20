@@ -23,10 +23,6 @@
             return {
                 menus: this.$store.getters.menus
             }
-        },
-        mounted() {
-            console.log('data', this.menus)
-            alert('oi')
         }
     }
 </script>

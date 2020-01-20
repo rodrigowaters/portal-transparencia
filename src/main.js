@@ -1,16 +1,16 @@
-import Vue from 'vue'
-import App from './App.vue'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import VTree from 'vue-vtree';
+import Vue                         from 'vue'
+import App                         from './App.vue'
+import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
+import VTree                       from 'vue-vtree';
 import './registerServiceWorker'
-import router from './router'
-import store from './store'
+import router                      from './router'
+import store                       from './store'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 // Bootstrap
-Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
+Vue.use(BootstrapVue);
+Vue.use(IconsPlugin);
 
 // Importar CSS
 import 'bootstrap/dist/css/bootstrap.css'
@@ -24,13 +24,21 @@ Vue.component('v-tree', VTree);
 import VueProgressBar from 'vue-progressbar'
 
 Vue.use(VueProgressBar, {
-  color: 'rgb(143, 255, 199)',
-  failedColor: 'red',
-  height: '2px'
-})
+    color      : 'rgb(143, 255, 199)',
+    failedColor: 'red',
+    height     : '2px'
+});
 
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+// Carregar informacoes
+store.dispatch('fetchData').then(() =>
+{
+    // Iniciar App
+    new Vue({
+        router,
+        store,
+        render: h => h(App)
+    }).$mount('#app');
+}).catch((error) =>
+{
+    alert(error);
+});
