@@ -32,10 +32,14 @@
       Header, Footer
     },
     mounted () {
-      this.$Progress.finish()
+      this.$Progress.finish();
     },
-    created () {
+    async created () {
+
+      // Inicia a Progressbar
       this.$Progress.start();
+
+      //
       this.$router.beforeEach((to, from, next) => {
         if (to.meta.progress !== undefined) {
           let meta = to.meta.progress;
@@ -44,10 +48,20 @@
         this.$Progress.start();
         next()
       });
+
+      //
       this.$router.afterEach((to, from) => {
         console.log(from.path, ' -> ', to.path);
         this.$Progress.finish();
-      })
+      });
+
+      // Carrega as informações do site
+      await this.$store.dispatch('fetchData').then(() => {
+        console.log('then', this.$store.getters.menus)
+      }).finally(() => {
+        console.log('finally', this.$store.getters.menus)
+      });
+
     }
   }
 </script>
