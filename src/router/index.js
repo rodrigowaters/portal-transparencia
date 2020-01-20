@@ -9,6 +9,7 @@ const routes = [
     {path: '/mapa-do-site', component: () => import('../views/Mapa-Do-Site')},
     {path: '/busca-rapida', component: () => import('../views/Busca-Rapida.vue')},
     {path: '/busca-rapida/:query', component: () => import('../views/Busca-Rapida.vue'), props: true},
+    {path: '/dinamico/:page_id', component: () => import('../views/Dinamico.vue'), props: true},
     {
         path     : "*",
         name     : "not-found",

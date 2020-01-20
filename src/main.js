@@ -1,10 +1,10 @@
-import Vue                         from 'vue'
-import App                         from './App.vue'
-import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
-import VTree                       from 'vue-vtree';
+import Vue from 'vue'
+import App from './App.vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import VTree from 'vue-vtree';
 import './registerServiceWorker'
-import router                      from './router'
-import store                       from './store'
+import router from './router'
+import store from './store'
 
 Vue.config.productionTip = false
 
@@ -21,7 +21,7 @@ import '../src/assets/css/styles.min.css'
 Vue.component('v-tree', VTree);
 
 new Vue({
-    router,
-    store,
-    render: h => h(App)
+  router,
+  store,
+  render: h => h(App)
 }).$mount('#app')
