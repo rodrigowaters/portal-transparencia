@@ -37,7 +37,9 @@
                         </div>
                         <input class="form-control" type="text" placeholder="Search..." name="" id="search" v-model="search">
                         <div class="input-group-append">
-                            <button class="btn btn-primary" type="submit"><i class="fa fa-search" style="font-size: 14px;"></i></button>
+                            <button class="btn btn-primary" type="submit">
+                                <b-icon-search></b-icon-search>
+                            </button>
                         </div>
                     </div>
                 </form>
