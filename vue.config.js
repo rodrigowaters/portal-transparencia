@@ -1,5 +1,6 @@
 module.exports = {
-  assetsDir: 'assets',
+  assetsDir : 'assets',
+  publicPath: './',
 
   pwa: {
     name: 'Portal da Transparência'
