@@ -3,16 +3,11 @@
 
         Busca Rapida -> {{query}}
 
-        <v-tree :scope-data="menus">
-
-            <div slot-scope="menuLevel">
-                <div v-for="menuItem in menuLevel" v-bind:key="menuItem.title">
-                    <router-link v-if=" showLink( menuItem, query ) " :to="menuItem.url">{{ menuItem.title }}</router-link>
-                    <v-tree v-if="menuItem.children" :scope-data="menuItem.children"></v-tree>
-                </div>
+        <el-tree :data="menus" default-expand-all>
+            <div slot-scope="{ node }">
+                <router-link v-if=" showLink( node.data, query ) " :to="node.data.url">{{ node.data.title }}</router-link>
             </div>
-
-        </v-tree>
+        </el-tree>
 
     </div>
 </template>
@@ -24,8 +19,8 @@
         data()
         {
             return {
-                menus: this.$store.getters.menus
-            }
+                menus: this.$store.getters.menus,
+            };
         },
         methods: {
             showLink: (item, query) =>
