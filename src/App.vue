@@ -41,8 +41,10 @@
       this.$Progress.start();
 
       //
-      this.$router.beforeEach((to, from, next) => {
-        if (to.meta.progress !== undefined) {
+      this.$router.beforeEach((to, from, next) =>
+      {
+        if (to.meta.progress !== undefined)
+        {
           let meta = to.meta.progress;
           this.$Progress.parseMeta(meta)
         }
@@ -51,8 +53,10 @@
       });
 
       //
-      this.$router.afterEach((to, from) => {
-        console.log(from.path, ' -> ', to.path);
+      this.$router.afterEach(() =>
+      {
+        // to, from
+        // console.log(from.path, ' -> ', to.path);
         this.$Progress.finish();
       });
 
