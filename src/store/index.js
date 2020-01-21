@@ -37,7 +37,7 @@ export default new Vuex.Store({
         async fetchData({commit})
         {
             return await axios
-                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/70c8b71ebf9994e6d5189e8fbac062ad607b8270/getInfos.json', {
+                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/bbfb1f45ada36767401118d89d46c69c5af3a392/getInfos.json', {
                     headers: {
                         'Content-Type': 'application/json',
                     },
