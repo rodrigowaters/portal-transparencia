@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:e2e": "vue-cli-service test:e2e",
+    "test:e2e": "vue-cli-service test:e2e --headless --record --key 0a9473a9-afad-487f-9f3d-b2b3f805b09f",
     "lint": "vue-cli-service lint",
     "deploy": "vue-cli-service build && rm -rf docs; cp -r dist docs"
   },
