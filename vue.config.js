@@ -1,6 +1,6 @@
 module.exports = {
   assetsDir : 'assets',
-  publicPath: 'https://rodrigowaters.github.io/portal-transparencia/',
+  publicPath: '/',
 
   pwa: {
     name: 'Portal da Transparência'
