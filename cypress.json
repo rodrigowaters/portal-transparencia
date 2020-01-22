@@ -1,3 +1,4 @@
 {
-  "projectId": "a84b3n"
+  "projectId": "a84b3n",
+  "pluginsFile": "tests/e2e/plugins/index.js"
 }
