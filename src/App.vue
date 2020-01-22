@@ -3,13 +3,7 @@
     <Header/>
     <main class="container-fluid">
       <aside>
-        <ul>
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/busca-rapida">Busca rápida</router-link></li>
-          <li>
-            <router-link to="/page-1">Simular pagina nao encontrada</router-link>
-          </li>
-        </ul>
+        <Menu/>
       </aside>
       <section>
         <router-view/>
@@ -23,13 +17,14 @@
 <script>
 
   import Header from '@/components/Header.vue'
+  import Menu   from '@/components/Menu.vue'
   import Footer from '@/components/Footer.vue'
 
   export default {
     name: 'home',
     assetsDir: 'assets/',
     components: {
-      Header, Footer
+      Header, Menu, Footer
     },
     mounted () {
       this.$Progress.finish();
