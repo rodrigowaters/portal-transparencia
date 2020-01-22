@@ -23,7 +23,9 @@
         </div>
         <div class="row">
             <div class="col logo">
-                <h1><a href="#">Portal da Transparência</a></h1>
+                <h1>
+                    <router-link to="/">Portal da Transparência</router-link>
+                </h1>
                 <span>Prefeitura Municipal de São Leopoldo</span>
             </div>
         </div>
