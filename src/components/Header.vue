@@ -16,6 +16,9 @@
                     <li role="menuitem"><a href="#">ACESSIBILIDADE</a></li>
                     <li role="menuitem"><a href="#">ALTO CONSTRATE</a></li>
                     <li role="menuitem">
+                        <router-link to="/glossario">GLOSSARIO</router-link>
+                    </li>
+                    <li role="menuitem">
                         <router-link to="/mapa-do-site">MAPA DO SITE</router-link>
                     </li>
                 </ul>
