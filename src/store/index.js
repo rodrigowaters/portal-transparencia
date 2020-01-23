@@ -1,6 +1,7 @@
-import Vue   from 'vue'
-import Vuex  from 'vuex'
-import axios from 'axios'
+import Vue    from 'vue'
+import Vuex   from 'vuex'
+import axios  from 'axios'
+import lodash from 'lodash';
 
 Vue.use(Vuex)
 
@@ -72,8 +73,26 @@ export default new Vuex.Store({
                 });
         },
 
-        refreshBreadcrumb({commit}, breadcrumbArray)
+        refreshBreadcrumb({commit}, route)
         {
+            let breadcrumbArray = [{
+                text: 'Home',
+                href: '/'
+            }];
+
+            let breadcrumbs = lodash.split(route, '/')
+
+            lodash.each(breadcrumbs, value =>
+            {
+                if (!lodash.isEmpty(value))
+                {
+                    breadcrumbArray.push({
+                        text: value,
+                        href: '#'
+                    })
+                }
+            })
+
             commit('SET_BREADCRUMB', breadcrumbArray);
         }
     },

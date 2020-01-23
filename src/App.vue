@@ -7,7 +7,7 @@
             </aside>
             <section>
                 <div style="margin-top: 5px">
-                    <b-breadcrumb :items="breadcrumb"></b-breadcrumb>
+                    <b-breadcrumb v-if="breadcrumb.length > 0" :items="breadcrumb"></b-breadcrumb>
                 </div>
                 <router-view/>
                 <vue-progress-bar></vue-progress-bar>
@@ -41,7 +41,6 @@
         },
         created()
         {
-
             // Inicia a Progressbar
             this.$Progress.start();
 
@@ -53,21 +52,15 @@
                     this.$Progress.parseMeta(meta)
                 }
 
-                this.$store.dispatch('refreshBreadcrumb', [
-                    {
-                        text: to.path,
-                        href: to.path
-                    }
-                ])
-
                 this.$Progress.start();
                 next()
             });
 
-            this.$router.afterEach(() =>
+            this.$router.afterEach((to) =>
             {
                 // to, from
                 // console.log(from.path, ' -> ', to.path);
+                this.$store.dispatch('refreshBreadcrumb', to.path)
                 this.$data.breadcrumb = this.$store.getters.breadcrumb;
                 this.$Progress.finish();
             });
