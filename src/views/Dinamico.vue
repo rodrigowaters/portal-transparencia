@@ -10,7 +10,7 @@
                     {{ pagina.nome }}
                     <small>(Publicado em {{ pagina.data_inclusao }})</small>
                 </router-link>
-                <router-link v-if="pagina.tipo === 5" :to=" pagina.tag  " target="_blank">
+                <router-link v-if="pagina.tipo === 5" :href=" pagina.tag  " target="_blank">
                     {{ pagina.nome }}
                     <small>(Publicado em {{ pagina.data_inclusao }})</small>
                 </router-link>
