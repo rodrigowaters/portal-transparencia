@@ -7,7 +7,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({
     state    : {
         menus            : [],
-        paginas_dinamicas: []
+        paginas_dinamicas: [],
+        glossario        : []
     },
     getters  : {
         menus            : state =>
@@ -20,6 +21,10 @@ export default new Vuex.Store({
             {
                 return state.paginas_dinamicas.find(page => parseInt(page.id) === parseInt(pageId));
             }
+        },
+        glossario        : state =>
+        {
+            return state.glossario;
         }
     },
     mutations: {
@@ -30,6 +35,10 @@ export default new Vuex.Store({
         SET_PAGINAS_DINAMICAS(state, paginas_dinamicas)
         {
             state.paginas_dinamicas = paginas_dinamicas;
+        },
+        SET_PAGINAS_GLOSSARIO(state, glossario)
+        {
+            state.glossario = glossario;
         }
     },
     actions  : {
@@ -37,7 +46,7 @@ export default new Vuex.Store({
         async fetchData({commit})
         {
             return await axios
-                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/bbfb1f45ada36767401118d89d46c69c5af3a392/getInfos.json', {
+                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/0a6722d4fae2b9cd1d372c15e6e00ca8bc4f718f/getInfos.json', {
                     headers: {
                         'Content-Type': 'application/json',
                     },
@@ -46,6 +55,7 @@ export default new Vuex.Store({
                 {
                     commit('SET_MENUS', response.data.menus);
                     commit('SET_PAGINAS_DINAMICAS', response.data.paginas_dinamicas);
+                    commit('SET_PAGINAS_GLOSSARIO', response.data.glossario);
                 })
                 .catch(function (error)
                 {
