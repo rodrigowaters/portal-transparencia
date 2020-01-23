@@ -8,23 +8,28 @@ export default new Vuex.Store({
     state    : {
         menus            : [],
         paginas_dinamicas: [],
-        glossario        : []
+        glossario        : [],
+        breadcrumb       : []
     },
     getters  : {
-        menus            : state =>
+        menus(state)
         {
             return state.menus;
         },
-        paginas_dinamicas: state =>
+        paginas_dinamicas(state)
         {
             return pageId =>
             {
                 return state.paginas_dinamicas[pageId];
             }
         },
-        glossario        : state =>
+        glossario(state)
         {
             return state.glossario;
+        },
+        breadcrumb(state)
+        {
+            return state.breadcrumb;
         }
     },
     mutations: {
@@ -39,6 +44,10 @@ export default new Vuex.Store({
         SET_PAGINAS_GLOSSARIO(state, glossario)
         {
             state.glossario = glossario;
+        },
+        SET_BREADCRUMB(state, breadcrumbArray)
+        {
+            state.breadcrumb = breadcrumbArray;
         }
     },
     actions  : {
@@ -63,5 +72,9 @@ export default new Vuex.Store({
                 });
         },
 
+        refreshBreadcrumb({commit}, breadcrumbArray)
+        {
+            commit('SET_BREADCRUMB', breadcrumbArray);
+        }
     },
 })
