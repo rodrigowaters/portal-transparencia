@@ -6,16 +6,19 @@
         <ul>
             <li v-for="pagina in menus_vinculados" v-bind:key="pagina.id">
 
-                <router-link v-if="pagina.tipo === 4" :to=" getPageDownload( pagina.id )  " target="_blank">
+                <router-link v-if="pagina.tipo === 2 || pagina.tipo === 3" :to=" getPageDinamica( pagina.id )  ">
                     {{ pagina.nome }}
                     <small>(Publicado em {{ pagina.data_inclusao }})</small>
                 </router-link>
-                <router-link v-if="pagina.tipo === 5" :href=" pagina.tag  " target="_blank">
+                <router-link v-else-if="pagina.tipo === 4" :to=" getPageDownload( pagina.id )  " target="_blank">
                     {{ pagina.nome }}
                     <small>(Publicado em {{ pagina.data_inclusao }})</small>
                 </router-link>
-
-                <span v-else>{{ pagina.tipo }} - {{ pagina.nome }}</span>
+                <a v-else-if="pagina.tipo === 5" :href=" pagina.tag  " target="_blank">
+                    {{ pagina.nome }}
+                    <small>(Publicado em {{ pagina.data_inclusao }})</small>
+                </a>
+                <span v-else>{{ pagina }}</span>
 
             </li>
         </ul>
@@ -36,6 +39,10 @@
             };
         },
         methods: {
+            getPageDinamica(page_id)
+            {
+                return '/dinamico/'.concat(page_id);
+            },
             getPageDownload(page_id)
             {
                 return '/download/'.concat(page_id);
