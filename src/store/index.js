@@ -1,7 +1,7 @@
 import Vue    from 'vue'
 import Vuex   from 'vuex'
 import axios  from 'axios'
-import lodash from 'lodash';
+import lodash from 'lodash'
 
 Vue.use(Vuex)
 
