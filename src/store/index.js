@@ -19,7 +19,7 @@ export default new Vuex.Store({
         {
             return pageId =>
             {
-                return state.paginas_dinamicas.find(page => parseInt(page.id) === parseInt(pageId));
+                return state.paginas_dinamicas[pageId];
             }
         },
         glossario        : state =>
@@ -46,7 +46,7 @@ export default new Vuex.Store({
         async fetchData({commit})
         {
             return await axios
-                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/0a6722d4fae2b9cd1d372c15e6e00ca8bc4f718f/getInfos.json', {
+                .get('https://gist.githubusercontent.com/rodrigowaters/b7c4b0d879a97979010cbf40a0608f93/raw/9a21bc61267409a421d9456b474e1f80bfcbcce3/getInfos.json', {
                     headers: {
                         'Content-Type': 'application/json',
                     },
