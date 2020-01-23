@@ -11,8 +11,8 @@
             </div>
             <div class="col">
                 <ul class="menu-borda" role="menubar">
-                    <li role="menuitem"><a href="#">A+</a></li>
-                    <li role="menuitem"><a href="#">A-</a></li>
+                    <li role="menuitem"><a href="#" @click="aumentarFonte()">A+</a></li>
+                    <li role="menuitem"><a href="#" @click="diminuirFonte()">A-</a></li>
                     <li role="menuitem"><a href="#">ACESSIBILIDADE</a></li>
                     <li role="menuitem"><a href="#">ALTO CONSTRATE</a></li>
                     <li role="menuitem">
@@ -60,10 +60,26 @@
         data()
         {
             return {
-                search: ''
+                search         : '',
+                fontSizeAtual  : 16,
+                fontSizeDefault: 16,
             }
         },
         methods: {
+            setFontSize(fontSize)
+            {
+                document.getElementsByTagName('main')[0].style.fontSize = fontSize + 'px';
+            },
+            aumentarFonte()
+            {
+                let fontSize = ++this.fontSizeAtual;
+                this.setFontSize(fontSize);
+            },
+            diminuirFonte()
+            {
+                let fontSize = --this.fontSizeAtual;
+                this.setFontSize(fontSize);
+            },
             onSubmitForm: function (e)
             {
                 e.preventDefault();
@@ -73,6 +89,7 @@
                 this.$router.push(url);
 
             }
-        }
+        },
+
     }
 </script>
