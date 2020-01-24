@@ -13,7 +13,7 @@
                 <ul class="menu-borda" role="menubar">
                     <li role="menuitem"><a href="#" @click="aumentarFonte()">A+</a></li>
                     <li role="menuitem"><a href="#" @click="diminuirFonte()">A-</a></li>
-                    <li role="menuitem"><a href="#">ACESSIBILIDADE</a></li>
+                    <li role="menuitem"><a href="#" @click="resetarFonte()">A</a></li>
                     <li role="menuitem"><a href="#">ALTO CONSTRATE</a></li>
                     <li role="menuitem">
                         <router-link to="/glossario">GLOSSARIO</router-link>
@@ -68,7 +68,7 @@
         methods: {
             setFontSize(fontSize)
             {
-                document.getElementsByTagName('main')[0].style.fontSize = fontSize + 'px';
+                window.jQuery('main').css('font-size', fontSize + 'px');
             },
             aumentarFonte()
             {
@@ -80,14 +80,17 @@
                 let fontSize = --this.fontSizeAtual;
                 this.setFontSize(fontSize);
             },
+            resetarFonte()
+            {
+                let fontSize = this.fontSizeDefault;
+                this.setFontSize(fontSize);
+            },
             onSubmitForm: function (e)
             {
                 e.preventDefault();
 
                 let url = '/busca-rapida/'.concat(this.search);
-
                 this.$router.push(url);
-
             }
         },
 
