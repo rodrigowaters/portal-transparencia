@@ -1,35 +1,29 @@
 <template>
     <header id="header" class="container-fluid" role="banner">
-        <div class="row">
-            <div class="col">
-                <ul role="menubar">
-                    <li role="menuitem"><a href="#">Ir para o conteúdo</a></li>
-                    <li role="menuitem"><a href="#">Ir para o menu</a></li>
-                    <li role="menuitem"><a href="#">Ir para a busca</a></li>
-                    <li role="menuitem"><a href="#">Ir para o rodapé</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <ul class="menu-borda" role="menubar">
-                    <li role="menuitem"><a href="#" @click="aumentarFonte()">A+</a></li>
-                    <li role="menuitem"><a href="#" @click="diminuirFonte()">A-</a></li>
-                    <li role="menuitem"><a href="#" @click="resetarFonte()">A</a></li>
-                    <li role="menuitem"><a href="#">ALTO CONSTRATE</a></li>
-                    <li role="menuitem">
-                        <router-link to="/glossario">GLOSSARIO</router-link>
-                    </li>
-                    <li role="menuitem">
-                        <router-link to="/mapa-do-site">MAPA DO SITE</router-link>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col logo">
-                <h1>
-                    <router-link to="/">Portal da Transparência</router-link>
-                </h1>
-                <span>Prefeitura Municipal de São Leopoldo</span>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <div class="col logo">
+                        <h1>
+                            <router-link to="/">Portal da Transparência</router-link>
+                        </h1>
+                        <span>Prefeitura Municipal de São Leopoldo</span>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <ul class="menu-borda" role="menubar">
+                        <li role="menuitem"><a href="#" @click="aumentarFonte()">A+</a></li>
+                        <li role="menuitem"><a href="#" @click="diminuirFonte()">A-</a></li>
+                        <li role="menuitem"><a href="#" @click="resetarFonte()">A</a></li>
+                        <li role="menuitem"><a href="#">ALTO CONSTRATE</a></li>
+                        <li role="menuitem">
+                            <router-link to="/glossario">GLOSSARIO</router-link>
+                        </li>
+                        <li role="menuitem">
+                            <router-link to="/mapa-do-site">MAPA DO SITE</router-link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="row" id="busca-rapida">
