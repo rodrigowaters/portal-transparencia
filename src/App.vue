@@ -41,6 +41,8 @@
         },
         created()
         {
+            document.title = "Portal da Transparência";
+
             // Inicia a Progressbar
             this.$Progress.start();
 

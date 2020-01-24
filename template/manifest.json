@@ -1,0 +1,19 @@
+{
+  "short_name": "Portal da Transparencia",
+  "name": "Portal da Transparencia de _CLIENTE_",
+  "icons": [
+    {
+      "src": "/assets/img/logo192.png?h=142c7ac8b2fce669817f757892dc92cd",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/logo512.png?h=0805aaa6150cf9104aee6522e637ac3a",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
