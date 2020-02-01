@@ -31,7 +31,7 @@
             showLink: (item, query) =>
             {
                 let result = item.title.toLowerCase().match(new RegExp(query, 'i'))
-                return item.hasOwnProperty('url') && result != null;
+                return Object.prototype.hasOwnProperty.call(item, 'url') && result != null;
             }
         }
     }
