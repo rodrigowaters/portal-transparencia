@@ -16,7 +16,7 @@
     "bootstrap-vue": "2.15.0",
     "core-js": "3.6.5",
     "jquery": "3.5.1",
-    "lodash": "4.17.15",
+    "lodash": "4.17.17",
     "register-service-worker": "1.7.1",
     "rollup": "2.18.0",
     "vue": "2.6.11",
