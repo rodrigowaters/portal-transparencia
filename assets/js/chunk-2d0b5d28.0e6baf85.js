@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b5d28"],{"1b12":function(n,e,a){"use strict";a.r(e);var o=function(){var n=this,e=n.$createElement,a=n._self._c||e;return a("div",[n._v(" Acesso a Informação / balanco_orcamentario ")])},c=[],t=a("2877"),r={},l=Object(t["a"])(r,o,c,!1,null,null,null);e["default"]=l.exports}}]);
+//# sourceMappingURL=chunk-2d0b5d28.0e6baf85.js.map
